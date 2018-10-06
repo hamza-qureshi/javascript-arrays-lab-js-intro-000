@@ -5,6 +5,12 @@ function destructivelyAppendKitten(name){
 function destructivelyAppendKitten(name){
   kittens.push(name)
 }
+function destructivelyAppendKitten(name){
+  kittens.shift(name)
+}
+function destructivelyAppendKitten(name){
+  kittens.unshift(name)
+}
 
 function appendKitten (){
 
@@ -12,4 +18,3 @@ function appendKitten (){
 
 
 kittens = ["Milo", "Otis", "Garfield"]
-destructivelyAppendKitten(kittens)
