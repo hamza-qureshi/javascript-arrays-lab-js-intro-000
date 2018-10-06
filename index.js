@@ -4,7 +4,7 @@ function destructivelyAppendKitten(){
 }
 
 function appendKitten (){
-  
+
 }
 
 
