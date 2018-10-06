@@ -1,15 +1,15 @@
 // Add your functions and code here
-function destructivelyAppendKitten(name){
+function destructivelyAppendKitten(){
   kittens.pop()
 }
 function destructivelyAppendKitten(name){
   kittens.push(name)
 }
-function destructivelyAppendKitten(name){
-  kittens.shift(name)
+function destructivelyAppendKitten(){
+  kittens.shift()
 }
 function destructivelyAppendKitten(name){
-  kittens.unshift()
+  kittens.unshift(name)
 }
 
 function appendKitten (){
