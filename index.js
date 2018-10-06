@@ -23,6 +23,6 @@ return [name,...kittens]
 function appendKitten() {
   kittens.slice(1)
 }
-function appendKitten (name){
+function appendKitten (){
 kittens.slice(0,kittens.length - 1)
 }
