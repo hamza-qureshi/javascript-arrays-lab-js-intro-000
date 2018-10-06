@@ -1,4 +1,6 @@
-// Add your functions and code here
+// Add your fukittens = ["Milo", "Otis", "Garfield"]
+kittens = ["Milo", "Otis", "Garfield"]
+
 function destructivelyAppendKitten(){
   kittens.pop()
 }
@@ -17,4 +19,3 @@ function appendKitten (){
 }
 
 
-kittens = ["Milo", "Otis", "Garfield"]
