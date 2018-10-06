@@ -26,4 +26,3 @@ function appendKitten() {
 function appendKitten (name){
 kittens.slice(0,kittens.length - 1)
 }
-
