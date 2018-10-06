@@ -2,6 +2,9 @@
 function destructivelyAppendKitten(name){
   kittens.pop(name)
 }
+function destructivelyAppendKitten(name){
+  kittens.push(name)
+}
 
 function appendKitten (){
 
