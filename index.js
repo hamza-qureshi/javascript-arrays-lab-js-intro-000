@@ -1,28 +1,33 @@
-// Add your fukittens = ["Milo", "Otis", "Garfield"]
 var kittens = ["Milo", "Otis", "Garfield"]
 
-function destructivelyAppendKitten(){
-  kittens.pop()
-}
-function destructivelyAppendKitten(name){
+function destructivelyAppendKitten(name) {
   kittens.push(name)
 }
-function destructivelyAppendKitten(){
-  kittens.shift()
-}
-function destructivelyAppendKitten(name){
+
+function destructivelyPrependKitten(name) {
   kittens.unshift(name)
 }
 
-function appendKitten (name){
-return [...kittens,name]
+function destructivelyRemoveLastKitten() {
+  kittens.pop()
 }
-function appendKitten (name){
-return [name,...kittens]
+
+function destructivelyRemoveFirstKitten() {
+  kittens.shift()
 }
-function appendKitten() {
-  kittens.slice(1)
+
+function appendKitten(name) {
+  return [...kittens, name]
 }
-function appendKitten (){
-kittens.slice(0,kittens.length - 1)
+
+function prependKitten(name) {
+  return [name, ...kittens]
+}
+
+function removeFirstKitten() {
+  return kittens.slice(1)
+}
+
+function removeLastKitten() {
+  return kittens.slice(0, kittens.length - 1)
 }
