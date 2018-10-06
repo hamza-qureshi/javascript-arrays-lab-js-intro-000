@@ -17,5 +17,3 @@ function destructivelyAppendKitten(name){
 function appendKitten (){
 
 }
-
-
