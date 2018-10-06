@@ -1,6 +1,6 @@
 // Add your functions and code here
-function destructivelyAppendKitten(arr){
-  kittens.slice(...arr,"Ralph")
+function destructivelyAppendKitten(name){
+  kittens.pop(name)
 }
 
 function appendKitten (){
