@@ -9,3 +9,4 @@ function appendKitten (){
 
 
 kittens = ["Milo", "Otis", "Garfield"]
+destructivelyAppendKitten(kittens)
