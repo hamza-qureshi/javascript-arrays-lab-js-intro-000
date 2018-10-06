@@ -1,5 +1,5 @@
 // Add your fukittens = ["Milo", "Otis", "Garfield"]
-kittens = ["Milo", "Otis", "Garfield"]
+var kittens = ["Milo", "Otis", "Garfield"]
 
 function destructivelyAppendKitten(){
   kittens.pop()
